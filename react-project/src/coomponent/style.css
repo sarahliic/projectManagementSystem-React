@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-sections {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+
+  gap: 30px;
+  width: 100%;
+  /* background-color: #f5f6fa; */
+}
+
+.cards-box-container {
+  background-color: #fdfdfd;
+  min-height: 16.25rem;
+  min-width: 20rem;
+  text-align: right;
+  border-right: 15px solid #91d8db;
+  font-size: 16px;
+  border-radius: 15px;
+  line-height: 24px;
+}
+
+.cards-name {
+  width: 16rem;
+  height: 1.75rem;
+  line-height: 28px;
+  margin-top: 1rem;
+  color: #91d8db;
+  font-size: 18px;
+}
+/* .blue {
+    color: #91d8db;
+  } */
+
+.cards-title {
+  height: 6rem;
+  width: 16rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cards-timeAndlocation {
+  height: 1.25rem;
+  width: 16rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards-palce {
+  margin: 0 1rem;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cards-time {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cards-startTimeandButton {
+  height: 2.75rem;
+  width: 16rem;
+  margin: 1rem 0;
+}
+
+.cards-icon-start {
+  margin: 0 1rem;
+  font-size: 12px;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.cards-btn-details {
+  height: 1.75rem;
+  width: 6rem;
+  border: 1px solid #91d8db;
+  background-color: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.cards-btn-details:hover {
+  background-color: #91d8db;
+  color: #f5f6fa;
+  font-size: 16px;
+}
+.purpleBtn {
+  border: 1px solid #abadf5;
+  background-color: #ffffff;
+}
+.purpleBtn:hover {
+  background-color: #abadf5;
+  color: #f5f6fa;
+  font-size: 16px;
+}
+.purple {
+  color: #abadf5;
+}
+.gray {
+  color: #b4b4b4;
+}
+.grayBtn {
+  border: 1px solid #706e6e;
+  background-color: #b4b4b465;
+}
+.grayBtn:hover {
+  background-color: #b4b4b465;
+  color: #706e6e;
+}
+
+@media (max-width: 767px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
